@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Urban Foraging Berlin</title>
+
+
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="d-flex justify-content-between align-items-center p-3 bg-light shadow">
+      <div>
+        🌿 Willkommen bei <strong>Urban Foraging Berlin! 🌿</strong>
+      </div>
+      <div>
+        <img src="assets/Logo.png" alt="Logo" class="logo-icon" style="height:50px;" />
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold mb-4">Willkommen bei Urban Foraging Berlin!</h1>
+        
+        <form action="/login" method="post">
+          <div class="row">
+            <!-- Username -->
+            <div class="col-6">
+              <div class="form-floating mb-3 shadow">
+                <input type="text" class="form-control" id="username" placeholder="User name" name="username" required>
+                <label for="username">User name</label>
+              </div>
+            </div>
+
+            <!-- Passwort -->
+            <div class="col-6">
+              <div class="form-floating mb-3 shadow">
+                <input type="password" class="form-control" id="password" placeholder="Passwort" name="password" required>
+                <label for="password">Passwort</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="row">
+            <div class="col-6">
+              <button type="submit" class="btn btn-dark btn-lg w-100">Log in</button>
+            </div>
+            <div class="col-6">
+              <button type="button" class="btn btn-success btn-lg w-100">Sign up</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center p-3 bg-light border-top">
+      <small>© 2025 Urban Foraging Berlin</small>
+    </footer>
+  </body>
+</html>
